@@ -1,0 +1,22 @@
+login to github and create Repository with Name "SparkPi"
+login to CodeEnvy and go to Terminal
+Change directory to Project directory
+Run below commands to initialize and push changes
+git init
+git add -A
+git commit -a -m "Changes in POM.XML"
+git remote add origin https://github.com/shabdarghata/SparkLoadCSV.git
+git push -u origin master
+
+Above commands will push project to github
+After making changes on code envy, run below commands to push changes to github
+
+below command will show changed files
+git status
+
+below command will add changed files to commit. -m switch is to indicate comment about changes
+git commit -a -m "Changes in POM.XML"
+
+Then push changes again on github.com
+git push -u origin master
+
