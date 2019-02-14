@@ -4,7 +4,7 @@ Change directory to Project directory
 Run below commands to initialize and push changes
 git init
 git add -A
-git commit -a -m "Changes in POM.XML"
+git commit -a -m "Initial commit and push"
 git remote add origin https://github.com/shabdarghata/SparkLoadCSV.git
 git push -u origin master
 
