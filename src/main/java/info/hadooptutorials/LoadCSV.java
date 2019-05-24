@@ -35,8 +35,8 @@ public class LoadCSV {
     Dataset<Row> df = spark.read()
     .option("mode", "DROPMALFORMED")
     .schema(schema)
-    //.csv("/projects/SparkLoadCSV/FL_insurance_sample.csv");    
-    .csv("hdfs:///localhost/SparkLoadCSV/FL_insurance_sample.csv");    
+    .csv("/projects/SparkLoadCSV/FL_insurance_sample.csv");    
+    //.csv("hdfs:///localhost/SparkLoadCSV/FL_insurance_sample.csv");    
 
     df.createOrReplaceTempView("insurance");
 
